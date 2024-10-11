@@ -62,6 +62,7 @@ int main()
 	{
 		printf("%2d  ", k);
 	}
-	printf("maxFreq: %d\nmax: %d\n", maxFreq, max);
+	printf("\nmaxFreq: %d\nmax: %d\n", maxFreq, max);
 	for(int i = 0; i<=max; i++) printf("%d ", arr[i]);
+	printf("\n");
 }	

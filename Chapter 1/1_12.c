@@ -17,7 +17,6 @@ int main()
     {
     	if(state == OUT && isBlank(c) == -1)
 	{
-		printf("\n");
 		state = IN;
 		putchar(c);
 	}
@@ -28,6 +27,7 @@ int main()
 	else if(state == IN && isBlank(c) == 1)
 	{
 		state = OUT;
+		putchar('\n');
 	}
     	else
     		printf("\n");
