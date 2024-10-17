@@ -26,7 +26,7 @@ int main()
 	}
 	for(int i = 1; i <= max; i++)
 	{
-		printf("%d:\t", i);
+		printf("%d:", i);
 		for(int j = 0; j < arr[i]; j++)
 			printf("#");
 		printf("\n");

@@ -17,6 +17,7 @@ int main()
 				chars[c - 97]++;	
 		}		
 	}
+	printf("\n");
 	for(int i = 0; i < 26; i++)
 	{
 		printf("%c| ", i + 97);
